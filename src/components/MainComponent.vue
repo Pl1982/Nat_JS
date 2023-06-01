@@ -22,7 +22,7 @@
                               </div>
                               <div class="imagesPrestations">
                                     <h4>Crèmes</h4>
-                                    <a href="#"><img src="src/assets/media/photo21.jpg" alt="chambre"></a>
+                                    <a href="#"><img src="../assets/media/photo21.jpg" alt="chambre"></a>
                               </div>
                               <div class="imagesPrestations">
                                     <h4>Cure Detox</h4>

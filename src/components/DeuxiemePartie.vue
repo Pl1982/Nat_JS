@@ -37,23 +37,23 @@ export default {}
 }
 
 #Vitamines {
-      background: url(media/vitamine1.jpg);
+      background: url(../assets/media/vitamine1.jpg);
       border-radius: 1em;
 
 }
 
 #Complement {
-      background: url(media/Cadeaux3.jpg);
+      background: url(../assets/media/Cadeaux3.jpg);
       border-radius: 1em;
 }
 
 #Soins {
-      background: url(media/savon1.jpg);
+      background: url(../assets/media/savon1.jpg);
       border-radius: 1em;
 }
 
 #Boissons {
-      background: url(media/Image\ principale3.jpg);
+      background: url(../assets/media/Imageprincipale3.jpg);
       border-radius: 1em;
 }
 

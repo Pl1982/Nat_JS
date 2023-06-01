@@ -2,14 +2,19 @@
       <main>
             <nav>
                   <ul>
-                        <li id="logo"><a href="#">Nat'Aloe</a></li>
+                        <li id="logo"><router-link to="/">Nat'Aloe</router-link></li>
+                          <li>
+                                    <a href="#contact">Me contacter</a>
+                              </li>
+
                         <li>
                               <a target="_blank"
                                     href="https://direct.foreverliving.fr/produits/forme/les-bases-du-bien-etre.html">Boutique</a>
                         </li>
-                        <li>
-                              <a href="#contact">Me contacter</a>
-                        </li>
+                      
+                        <router-link to="/massage">Massage</router-link>
+                      
+                      
                   </ul>
             </nav>
       </main>
