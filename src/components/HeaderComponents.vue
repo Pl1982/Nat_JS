@@ -14,6 +14,8 @@
 export default {}
 </script>
 <style scoped>
+
+
 #imagePrincipale {
       padding-top: 60px;
       background: url(../assets/media/presentattion2.jpg) no-repeat fixed 50% 50%;

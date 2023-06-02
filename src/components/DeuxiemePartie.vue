@@ -25,6 +25,8 @@
 export default {}
 </script>
 <style>
+
+
 #produit_1 {
       height: 1400px;
       background-color: var(--secondary);
@@ -92,5 +94,16 @@ export default {}
       box-shadow: -4px 4px 0 1px #524A3A;
       color: var(--primary);
       border-radius: .5em;
+}
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  #produit_1 ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #produit_1 li {
+    flex-basis: 100%;
+    margin: 20px auto;
+  }
 }
 </style>

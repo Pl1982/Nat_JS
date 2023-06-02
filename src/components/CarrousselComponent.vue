@@ -1,5 +1,5 @@
 <template>
-      <carousel :items-to-show="1.5" :autoplay="2000" :pauseAutoplayOnHver="true" wraParound="true">
+      <carousel :items-to-show="1.5" :autoplay="2000" :pauseAutoplayOnHver="true" wrapAround="true">
             <slide v-for="image in images" :key="image">
                   <img :src="image.src" alt="image.alt" class="slider-image">
 
