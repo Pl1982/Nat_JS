@@ -2,7 +2,7 @@
       <main>
             <section class="beige">
                   <div class="container">
-                        <div id="texteIntro">
+                        <div class="texteIntro">
                               <h2>Des produits extraordinaires</h2>
                               <p>L'Aloe vera est une plante aux nombreux bienfaits. Son gel, riche en nutriments, hydrate et
                                     apaise la peau,
@@ -15,7 +15,7 @@
                                     immunitaire. Une
                                     véritable plante aux multiples vertus.</p>
                         </div>
-                        <div id="prestations">
+                        <div class="prestations">
                               <div class="imagesPrestations">
                                     <h4>Boissons</h4>
                                     <a href="#"><img src="../assets/media/etoile3.jpg" alt="Aloe"></a>
@@ -36,16 +36,16 @@
 <script>
 export default {}
 </script>
-<style>
-.beige {
+<style scoped>
+.beige{
       background-color: var(--secondary);
 }
 
-#texteIntro {
+.texteIntro{
       padding: 0px 20%;
 }
 
-#prestations {
+.prestations {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;

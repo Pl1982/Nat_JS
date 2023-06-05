@@ -16,6 +16,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+       
 
     {
       path: '/massage',

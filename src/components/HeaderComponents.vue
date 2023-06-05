@@ -2,9 +2,9 @@
       <main>
             <header>
 
-                  <div id="imagePrincipale">
+                  <div class="imagePrincipale">
                         <h1> A la découverte de L'Aloe</h1>
-                        <div id="premierTrait"></div>
+                        <div class="premierTrait"></div>
                         <h3>Produits naturels</h3>
                   </div>
             </header>
@@ -16,7 +16,7 @@ export default {}
 <style scoped>
 
 
-#imagePrincipale {
+.imagePrincipale {
       padding-top: 60px;
       background: url(../assets/media/presentattion2.jpg) no-repeat fixed 50% 50%;
       background-position: top;
@@ -33,7 +33,7 @@ h1 {
       text-shadow: 6px 3px 2px var(--thirdy);
 }
 
-#premierTrait {
+.premierTrait {
       height: 1px;
       width: 25%;
       margin: -3px auto;

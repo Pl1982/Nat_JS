@@ -19,6 +19,9 @@ export default {}
 section 
 {background-color: #524a3a;
       padding:1px; 
+      position:absolute;
+      bottom: 0;
+      width: 100%;
  
 };
 </style>

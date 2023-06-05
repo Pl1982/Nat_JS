@@ -11,11 +11,19 @@ export default {
 </script>
 
 <template>
-  <NavBar />
-  <div class="main-wrapper">
-    <RouterView />
-    <FooterComponent/>
-  </div>
+<div class="contenair">
+   <NavBar />
+        <RouterView />
+        <FooterComponent/>
+    
+  </div> 
+
 </template>
 
-<style scoped></style>
+<style scoped>
+.contenair {
+  position: relative;
+  padding-bottom: 166px;
+  min-height: 100vh;
+}
+</style>

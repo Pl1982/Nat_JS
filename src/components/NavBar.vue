@@ -4,7 +4,8 @@
                   <ul>
                         <li id="logo"><router-link to="/">Nat'Aloe</router-link></li>
                           <li>
-                                    <router-link :to="{path:'/', hash: 'contact'}"> Me contacter</router-link>
+                                  <a href="#contact">Me contacter</a>
+
                               </li>
 
                         <li>
@@ -13,6 +14,7 @@
                         </li>
                       <li>
                         <router-link to="/massage">Massage</router-link>
+                       
                   </li>
                         
                       

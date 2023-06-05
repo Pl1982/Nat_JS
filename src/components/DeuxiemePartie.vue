@@ -1,19 +1,19 @@
 <template>
       <main>
-            <section id="produit_1">
+            <section class="produit_1">
                   <div class="container2">
                         <h2>Et tant à découvrir...</h2>
                         <ul>
-                              <li id="Vitamines">
+                              <li class="Vitamines">
                                     <p>Vitamines</p>
                               </li>
-                              <li id="Complement">
+                              <li class="Complement">
                                     <p>Compléménts alimantaires</p>
                               </li>
-                              <li id="Soins">
+                              <li class="Soins">
                                     <p>Soins du corps</p>
                               </li>
-                              <li id="Boissons">
+                              <li class="Boissons">
                                     <p>Les boissons</p>
                               </li>
                         </ul>
@@ -24,42 +24,42 @@
 <script>
 export default {}
 </script>
-<style>
+<style scoped>
 
 
-#produit_1 {
+.produit_1{
       height: 1400px;
       background-color: var(--secondary);
       padding: 1px 2%;
 }
 
-#produit_1 h2 {
+.produit_1 h2 {
       padding-top: 60px;
 
 }
 
-#Vitamines {
+.Vitamines {
       background: url(../assets/media/vitamine1.jpg);
       border-radius: 1em;
 
 }
 
-#Complement {
+.Complement {
       background: url(../assets/media/Cadeaux3.jpg);
       border-radius: 1em;
 }
 
-#Soins {
+.Soins {
       background: url(../assets/media/savon1.jpg);
       border-radius: 1em;
 }
 
-#Boissons {
+.Boissons {
       background: url(../assets/media/Imageprincipale3.jpg);
       border-radius: 1em;
 }
 
-#produit_1 li {
+.produit_1 li {
       margin: 65px 100px 0 100px;
       height: 226px;
       width: 55%;
@@ -68,7 +68,7 @@ export default {}
       box-shadow: 6px 6px 28px -1px var(--thirdy);
 }
 
-#produit_1 p {
+.produit_1 p {
       height: 45px;
       width: 235px;
       background-color: rgb(175, 194, 11);
@@ -81,13 +81,13 @@ export default {}
       border-radius: .5em;
 }
 
-#produit_1 #Complement,
-#produit_1 #Boissons {
+.produit_1 .Complement,
+.produit_1 .Boissons {
       float: right;
 }
 
-#Complement p,
-#Boissons p {
+.Complement p,
+.Boissons p {
       float: left;
       background-color: rgb(175, 194, 11);
       margin-left: -180px;
@@ -95,15 +95,5 @@ export default {}
       color: var(--primary);
       border-radius: .5em;
 }
-@media screen and (max-width: 375px) and (max-height: 667px) {
-  #produit_1 ul {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  #produit_1 li {
-    flex-basis: 100%;
-    margin: 20px auto;
-  }
-}
 </style>
