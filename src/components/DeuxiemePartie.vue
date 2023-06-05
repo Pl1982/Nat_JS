@@ -59,6 +59,10 @@ export default {}
       border-radius: 1em;
 }
 
+.container2 {
+      width: 80%;
+      margin: auto;
+}
 .produit_1 li {
       margin: 65px 100px 0 100px;
       height: 226px;
