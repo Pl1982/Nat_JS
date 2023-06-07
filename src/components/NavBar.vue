@@ -10,12 +10,12 @@
 
                         <li>
                               <a target="_blank"
-                                    href="https://direct.foreverliving.fr/produits/forme/les-bases-du-bien-etre.html">Boutique</a>
+                                    href="https://direct.foreverliving.fr/ref/330001545856/">Boutique</a>
                         </li>
                       <li>
-                        <router-link to="/massage">Massage</router-link>
+                        <router-link to="/massage">Massage</router-link>                       
                        
-                  </li>
+                  </li>             
                         
                       
                       

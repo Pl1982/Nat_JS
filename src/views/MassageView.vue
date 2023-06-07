@@ -13,7 +13,7 @@
             En conclusion, le massage facial à l'aloe vera est un moyen naturel et agréable d'améliorer l'apparence de la peau tout en procurant une sensation de bien-être. N'hésitez pas à intégrer cette pratique dans votre routine de soins pour profiter pleinement de ses bienfaits apaisants et revitalisants.</p>         
           </SoinMassageComponent>
           <SoinMassageComponent title="Les bienfaits apaisants du soin du visage à l'aloe vera
-            " image="../assets/media/Massage_main.jpg" :reversed="true" LinkUrl="/media/Massage_main"
+            " image="../assets/media/Massage_main.jpg" :reversed="true" LinkUrl="/rendezvous"
                   LinkText="Prendre rendez-vous">
                   <p>  L'aloe vera, plante aux multiples vertus, est souvent utilisée en cosmétique pour ses propriétés hydratantes et apaisantes. Lorsqu'elle est associée à un massage facial, elle offre de nombreux bienfaits pour la peau. 
 
@@ -24,7 +24,7 @@
                   En conclusion, le massage facial à l'aloe vera est un moyen naturel et agréable d'améliorer l'apparence de la peau tout en procurant une sensation de bien-être. N'hésitez pas à intégrer cette pratique dans votre routine de soins pour profiter pleinement de ses bienfaits apaisants et revitalisants.</p>         
                 </SoinMassageComponent>
                 <SoinMassageComponent title="Les bienfaits apaisants du soin du visage à l'aloe vera
-                  " image="../assets/media/Massage_main.jpg"  LinkUrl="/media/Massage_main"
+                  " image="../assets/media/Massage_main.jpg"  LinkUrl="/rendezvous"
                         LinkText="Prendre rendez-vous">
                         <p>  L'aloe vera, plante aux multiples vertus, est souvent utilisée en cosmétique pour ses propriétés hydratantes et apaisantes. Lorsqu'elle est associée à un massage facial, elle offre de nombreux bienfaits pour la peau. 
 
