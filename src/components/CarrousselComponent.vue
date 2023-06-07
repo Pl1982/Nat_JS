@@ -1,15 +1,15 @@
 <template>
-      <carousel :items-to-show="1.5" :autoplay="2000" :pauseAutoplayOnHver="true" wrapAround="true">
-            <slide v-for="image in images" :key="image">
-                  <img :src="image.src" alt="image.alt" class="slider-image">
+        <carousel :items-to-show="1.5" :autoplay="2000" :pauseAutoplayOnHver="true" wrapAround="true">
+                  <slide v-for="image in images" :key="image">
+                        <img :src="image.src" alt="image.alt" class="slider-image">
 
-            </slide>
+                  </slide>
 
-            <template #addons>
-                  <navigation />
-                  <pagination />
-            </template>
-      </carousel>
+                  <template #addons>
+                        <navigation />
+                        <pagination />
+                  </template>
+            </carousel>
 </template>
 <script>
 import 'vue3-carousel/dist/carousel.css'
@@ -42,3 +42,6 @@ export default {
       }
 }
 </script>
+<style scoped>
+
+</style>

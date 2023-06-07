@@ -1,11 +1,11 @@
 <template>
       <section>
-                              <div id="deuxiemeTrait"></div>
+                              <div class="deuxiemeTrait"></div>
                               <div id="copyrightEtIcons">
                                     <div id="copyright">
                                           <span> © fromsP.L; 2022</span>
                                     </div>
-                                    <div id="icons">
+                                    <div class="icons">
 
                                           <a target="_blank" href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
                                           <a target="_blank" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
@@ -17,26 +17,26 @@
 export default {}
 </script>
 <style scoped>
-#deuxiemeTrait {
+.deuxiemeTrait {
       height: 1px;
       width: 75%;
       background-color: #FFFAE1;
       margin: 60px auto;
 }
 
-#icons {
+.icons {
       display: flex;
       justify-content: flex-end;
 }
 
-#icons a {
+.icons a {
       display: inline-block;
       padding: 0 15px;
       font-size: 1.3em;
       color: #FFFAE1;
 }
 
-#icons a:hover {
+.icons a:hover {
       transform: scale(1.5);
       transition: 0.1s;
       color: red;
@@ -53,6 +53,8 @@ section{
       position:absolute;
       bottom: 0;
       width: 100%;
+    
+     
  
 };
 </style>

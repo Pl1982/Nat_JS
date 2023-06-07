@@ -15,7 +15,7 @@
                                     immunitaire. Une
                                     véritable plante aux multiples vertus.</p>
                         </div>
-                        <div class="prestations">
+                        <!-- <div class="prestations">
                               <div class="imagesPrestations">
                                     <h4>Boissons</h4>
                                     <a href="#"><img src="../assets/media/etoile3.jpg" alt="Aloe"></a>
@@ -28,7 +28,7 @@
                                     <h4>Cure Detox</h4>
                                     <a href="#"><img src="../assets/media/maigre3.jpg" alt="repas"></a>
                               </div>
-                        </div>
+                        </div> -->
                   </div>
             </section>
       </main>
@@ -39,10 +39,12 @@ export default {}
 <style scoped>
 .beige{
       background-color: var(--secondary);
+      
 }
 
 .texteIntro{
-      padding: 0px 20%;
+      font-size: 1.5rem;
+      padding: 30px 20%;
 }
 
 .prestations {

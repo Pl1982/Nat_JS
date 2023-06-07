@@ -67,7 +67,7 @@ export default {}
       margin: 65px 100px 0 100px;
       height: 226px;
       width: 55%;
-      max-width: 550px;
+      max-width: 650px;
       float: left;
       box-shadow: 6px 6px 28px -1px var(--thirdy);
 }

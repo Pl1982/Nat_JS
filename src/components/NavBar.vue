@@ -1,21 +1,25 @@
 <template>
       <main>
             <nav>
-                  <ul>
-                        <li id="logo"><router-link to="/">Nat'Aloe</router-link></li>
-                          <li>
-                                  <a href="#contact">Me contacter</a>
+                  <ul class="liste">
+                        <li id="logo">
+                              <router-link to="/">Nat'Aloe</router-link>
+                        </li>
+                        <div class="liste2">
+                               <li>
+                                        <a href="/#contact">Me contacter</a>
 
                               </li>
 
-                        <li>
-                              <a target="_blank"
-                                    href="https://direct.foreverliving.fr/ref/330001545856/">Boutique</a>
-                        </li>
-                      <li>
-                        <router-link to="/massage">Massage</router-link>                       
-                       
-                  </li>             
+                              <li>
+                                    <a target="_blank"
+                                          href="https://direct.foreverliving.fr/ref/330001545856/">Boutique</a>
+                              </li>
+                              <li>
+                                    <router-link to="/massage">Massage</router-link>
+                              </li>    
+                        </div>
+                            
                         
                       
                       
@@ -29,6 +33,13 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+.liste{display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
 
 nav {
       overflow: hidden;
@@ -38,6 +49,13 @@ nav {
       opacity: 1;
       width: 100%;
       z-index: 9999999;
+      position: fixed;
+      top: 0;
+}
+.liste2 a{
+      font-size: 1.4rem;
+      font-weight: bold;
+
 }
 
 
@@ -52,6 +70,7 @@ li a {
       display: block;
       text-align: center;
       padding: 18px 16px;
+      
 }
 
 #logo {
@@ -59,7 +78,7 @@ li a {
       font-family: 'Dancing Script', cursive;
       font-weight: bold;
       float: left;
-      font-size: 1.9em;
+      font-size: 3.5em;
       padding: 0em;
 }
 @media screen and (max-width: 418px) and (max-height: 667px) {

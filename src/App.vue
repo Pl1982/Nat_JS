@@ -13,8 +13,17 @@ export default {
 <template>
 <div class="contenair">
    <NavBar />
-        <RouterView />
-        <FooterComponent/>
+   <div class="wrapper">
+     <RouterView />      
+     <div class="footer">
+         <FooterComponent/>    
+     </div>
+   </div>
+     
+
+   
+       
+      
     
   </div> 
 
@@ -26,4 +35,10 @@ export default {
   padding-bottom: 166px;
   min-height: 100vh;
 }
-</style>
+/* .wrapper{
+  position: absolute;
+  top:104px;
+  z-index: -1;
+} */
+
+</style> 

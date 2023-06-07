@@ -37,7 +37,7 @@ export default {
 }
 
 .image img {
-      width: 100%;
+    
       aspect-ratio: 4/3;
       object-fit: 2rem;
 
@@ -47,7 +47,8 @@ section {
       display: grid;
       grid-template-columns: 45% 55%;
       margin: 4rem 0;
-      background-color: white;
+      background-color: white
+      
 }
 
 
